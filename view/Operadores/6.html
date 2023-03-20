@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' type='text/css' media='screen'
+        href='../../asset/library/node_modules/bootswatch/dist/sandstone/bootstrap.css'>
+
+    <script src=''></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="" method="post">
+        <fieldset>
+            <h2 style="font-weight: 800;">Operadores de control de errores</h2><br>
+            <p>PHP soporta un operador de control de errores: el signo de arroba (@). Cuando se antepone a una expresión en PHP,
+            cualquier mensaje de error que pueden ser generado por esa expresión será ignorado.
+            <br><br>
+            Si se ha establecido una función controladora de errores personalizada con set_error_handler() entonces todavía será
+            llamada, pero este controlador de errores personalizado puede (y debe) llamar a error_reporting() el cual devolverá 0
+            cuando la llamada que provocó el error fue precedida por el signo @.
+            <br><br>
+            Si la propiedad track_errors está activada, cualquier mensaje de error generado por la expresión será guardada en la
+            variable $php_errormsg. Esta variable se sobrescribe en cada error, así que se debe comprobar antes si se desea
+            utilizar.
+
+            </p>
+            
+            <br>
+
+            <img src="../../asset/img/o6.png" alt="" srcset="">
+            
+        </fieldset>
+    </form>
+</body>
+
+</html>

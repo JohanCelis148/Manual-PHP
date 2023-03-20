@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="../../asset/library/node_modules/bootswatch/dist/sandstone/bootstrap.css"
+    />
+
+    <script src=""></script>
+    <title>Document</title>
+  </head>
+
+  <body>
+    <form action="" method="post">
+      <fieldset>
+        <h2 style="font-weight: 800">Precedencia de operadores</h2>
+        <br />
+        <p>
+          La precedencia de un operador indica qué tan "estrechamente" se unen
+          dos expresiones juntas. Por ejemplo, en la expresión 1 + 5 * 3 , la
+          respuesta es 16 y no 18 porque el operador de multiplicación ("*")
+          tiene una precedencia mayor que el operador de adición ("+"). Los
+          paréntesis pueden ser usados para forzar la precedencia, si es
+          necesario. Por ejemplo: (1 + 5) * 3 se evalúa como 18. <br /><br />
+          Cuando los operadores tienen igual precedencia su asociatividad decide
+          cómo se agrupan. Por ejemplo "-" tiene asociatividad a izquierda, así
+          1 - 2 - 3 se agrupa como (1 - 2) - 3 y se evalúa a -4. "=", por otra
+          parte, tiene asociatividad a derecha, así $a = $b = $c se agrupa como
+          $a = ($b = $c).
+          <br /><br />
+          Los operadores de igual precedencia que no son asociativos no pueden
+          usarse unos junto a otros, por ejemplo, 1 < 2> 1 es ilegal en PHP. La
+          expresión 1 <= 1==1, por otro lado, es legal, ya que el
+          operador==tiene menos precedencia que el operador <=.
+        </p>
+
+        <br />
+
+        <img src="../../asset/img/02.png" alt="" srcset="" />
+      </fieldset>
+    </form>
+  </body>
+</html>
